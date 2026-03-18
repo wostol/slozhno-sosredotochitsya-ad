@@ -129,7 +129,7 @@
 }
 
 .title-decor {
-  color: var(--accent-color);
+  color: var(--decor-text);
   background-color: var(--decor-bg);
   font-family: var(--font-family);
   font-weight: 700;
