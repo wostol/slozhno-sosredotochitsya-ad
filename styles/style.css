@@ -37,11 +37,11 @@
 }
 
 .header {
-    min-block-size: 100vh;
-    padding: 20px;
-    display: grid;
-    position: relative;
-    grid-template-rows: 1fr min-content 1fr;
+  min-block-size: 100vh;
+  padding: 20px;
+  display: grid;
+  position: relative;
+  grid-template-rows: 1fr min-content 1fr;
 }
 
 .header__theme-menu-list {
@@ -62,11 +62,12 @@
   border: none;
   background: transparent;
 }
-.header-text{
+
+.header-text {
   max-inline-size: 491px;
-    max-block-size: 71px;
-    justify-self: end;
-    align-self: center;
+  max-block-size: 71px;
+  justify-self: end;
+  align-self: center;
 }
 
 .header__theme-menu-button_active {
@@ -98,6 +99,7 @@
   block-size: 25px;
   margin: 20px;
 }
+
 .frame::after {
   position: absolute;
   bottom: 0;
@@ -146,10 +148,8 @@
 
 
 .question__section-answer-text {
-  font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0%;
-
   font-size: var(--font-size);
   color: var(--text-color);
 }
@@ -300,6 +300,7 @@
   font-weight: 700;
   line-height: 82.5%;
 }
+
 @media (max-width:768px) {
   .header__theme-menu {
     display: flex;
@@ -319,14 +320,14 @@
   }
 
   .header-title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .question__section__one {
 
     grid-template-columns: 33% 67%;
     gap: 20px;
-    padding-inline-end:20px;
+    padding-inline-end: 20px;
   }
 
   .question__section-answer-two-container {
@@ -339,13 +340,13 @@
   .question__section-title-two {
     max-inline-size: 236px;
   }
-  
+
   .question__section__fhree {
     display: grid;
     grid-template-columns: 35% 65%;
     padding-block-end: 80px;
-  }  
- 
+  }
+
   .footer {
     padding: 20px;
     display: flex;
@@ -356,85 +357,85 @@
 /*Медиа запрос под 375px*/
 
 @media (max-width:560px) {
- .header {
-  padding: 10px;
-}
+  .header {
+    padding: 10px;
+  }
 
-.header-title {
-  margin-left: 0px;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-}
+  .header-title {
+    margin-left: 0px;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
 
-.header-text {
-  max-inline-size: 355px;
-  max-block-size: 117px;
-}  
+  .header-text {
+    max-inline-size: 355px;
+    max-block-size: 117px;
+  }
 
-.question__section__one {
-  margin: 0px 10px;
-  padding: 40px 0 0 0;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+  .question__section__one {
+    margin: 0px 10px;
+    padding: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.question__section-two {
-  margin: 0 10px;
-  padding-block-start: 50px;
-  padding-inline-end: 0 ;
-  padding-block-end: 50px;
-}
+  .question__section-two {
+    margin: 0 10px;
+    padding-block-start: 50px;
+    padding-inline-end: 0;
+    padding-block-end: 50px;
+  }
 
-.question__section-title-two {
-  min-inline-size: 355px;
-}
+  .question__section-title-two {
+    min-inline-size: 355px;
+  }
 
-.question__section-answer-two-container {
-  display: flex;
-  flex-direction: column;
-}
+  .question__section-answer-two-container {
+    display: flex;
+    flex-direction: column;
+  }
 
-.question__section__fhree {
-  margin: 0 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-block-end: 50px;
-}
+  .question__section__fhree {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-block-end: 50px;
+  }
 
-.question__section__image {
-  padding: 0 0 40px 0;
-}
+  .question__section__image {
+    padding: 0 0 40px 0;
+  }
 
-.question__section-title-image {
-  margin: 0 10px 10px 10px;
-}
+  .question__section-title-image {
+    margin: 0 10px 10px 10px;
+  }
 
-.question__section__image-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 0 10px;
-}
+  .question__section__image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 10px;
+  }
 
-.footer {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-} 
+  .footer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
 
-.footer__title {
+  .footer__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
   .decorative__element {
     margin: 10px;
   }
-  
+
   .frame::before {
     margin: 10px;
   }
-  
+
   .frame::after {
     block-size: 25px;
     margin: 10px;
